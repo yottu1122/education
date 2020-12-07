@@ -1,0 +1,596 @@
+
+<!DOCTYPE HTML>
+<html lang="ja" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>100万の卵を作ってみよう3 · Unityチュートリアル</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-navigator/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-hints/plugin-hints.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-intopic-toc/style.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    
+    <link rel="prev" href="Page-02.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="検索すると入力" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="Page-01.html">
+            
+                <a href="Page-01.html">
+            
+                    
+                    100万の卵を作ってみよう1
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="Page-02.html">
+            
+                <a href="Page-02.html">
+            
+                    
+                    100万の卵を作ってみよう2
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.4" data-path="Page-03.html">
+            
+                <a href="Page-03.html">
+            
+                    
+                    100万の卵を作ってみよう3
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            GitBookで公開 
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >100万の卵を作ってみよう3</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="100&#x4E07;&#x306E;&#x5375;&#x3092;&#x4F5C;&#x3063;&#x3066;&#x307F;&#x3088;&#x3046;&#xFF13;">100&#x4E07;&#x306E;&#x5375;&#x3092;&#x4F5C;&#x3063;&#x3066;&#x307F;&#x3088;&#x3046;&#xFF13;</h1>
+<h2 id="&#x30B9;&#x30AF;&#x30EA;&#x30D7;&#x30C8;&#x306E;&#x8A18;&#x8FF0;">1. &#x30B9;&#x30AF;&#x30EA;&#x30D7;&#x30C8;&#x306E;&#x8A18;&#x8FF0;</h2>
+<h3 id="Hello_World!">1.1. Hello World!</h3>
+<p>&#x307E;&#x305A;&#x306F;&#x304D;&#x3061;&#x3093;&#x3068;index.html&#x3067;main.js&#x30D5;&#x30A1;&#x30A4;&#x30EB;&#x3092;&#x8AAD;&#x307F;&#x8FBC;&#x3081;&#x3066;&#x3044;&#x308B;&#x304B;&#x78BA;&#x8A8D;&#x3057;&#x3066;&#x307F;&#x307E;&#x3057;&#x3087;&#x3046;&#x3002;</p>
+<p><br></p>
+<p>main.js&#x30D5;&#x30A1;&#x30A4;&#x30EB;&#x306B;&#x4EE5;&#x4E0B;&#x306E;&#x30B3;&#x30FC;&#x30C9;&#x3092;&#x8A18;&#x8FF0;&#x3057;&#x3066;&#x304F;&#x3060;&#x3055;&#x3044;&#x3002;</p>
+<pre><code class="lang-js">alert(<span class="hljs-string">&quot;Hello World!&quot;</span>);
+</code></pre>
+<p><br></p>
+<p>&#x3053;&#x3061;&#x3089;&#x3092;&#x4FDD;&#x5B58;&#x3057;&#x3066;&#x30D6;&#x30E9;&#x30A6;&#x30B6;&#x3092;&#x30EA;&#x30ED;&#x30FC;&#x30C9;&#x3059;&#x308B;&#x3068;</p>
+<p><img src="img/play10.png" alt="img-10"></p>
+<p>&#x3053;&#x306E;&#x3088;&#x3046;&#x306B;&#x30A2;&#x30E9;&#x30FC;&#x30C8;&#x304C;&#x8868;&#x793A;&#x3055;&#x308C;&#x307E;&#x3059;&#x3002;</p>
+<p>&#x8868;&#x793A;&#x3055;&#x308C;&#x306A;&#x3044;&#x5834;&#x5408;&#x306F;&#x3001;&#x304D;&#x3061;&#x3093;&#x3068;index.html&#x30D5;&#x30A1;&#x30A4;&#x30EB;&#x3067;main.js&#x30D5;&#x30A1;&#x30A4;&#x30EB;&#x3092;&#x8AAD;&#x307F;&#x8FBC;&#x3093;&#x3067;&#x3044;&#x308B;&#x304B;&#x3001;&#x30D5;&#x30A9;&#x30EB;&#x30C0;&#x5185;&#x306B;&#x304D;&#x3061;&#x3093;&#x3068;&#x30D5;&#x30A1;&#x30A4;&#x30EB;&#x304C;&#x4FDD;&#x5B58;&#x3055;&#x308C;&#x3066;&#x3044;&#x308B;&#x304B;&#x306A;&#x3069;&#x3092;&#x78BA;&#x8A8D;&#x3057;&#x3066;&#x304F;&#x3060;&#x3055;&#x3044;&#x3002;</p>
+<p><img src="img/play7.png" alt="img7"></p>
+<p><br>
+<br></p>
+<hr>
+<h2 id="&#x30AB;&#x30A6;&#x30F3;&#x30C8;&#x6570;&#x306E;&#x8868;&#x793A;">2. &#x30AB;&#x30A6;&#x30F3;&#x30C8;&#x6570;&#x306E;&#x8868;&#x793A;</h2>
+<p>&#x6B21;&#x306B;JS&#x5074;&#x304B;&#x3089;&#x30AB;&#x30A6;&#x30F3;&#x30C8;&#x6570;&#x3092;&#x63CF;&#x753B;&#x3057;&#x305F;&#x3044;&#x3068;&#x601D;&#x3044;&#x307E;&#x3059;&#x3002;</p>
+<p>main.js&#x30D5;&#x30A1;&#x30A4;&#x30EB;&#x306E;&#x4E2D;&#x3092;&#x4E0B;&#x8A18;&#x306E;&#x3088;&#x3046;&#x306B;&#x5909;&#x66F4;&#x3057;&#x3066;&#x304F;&#x3060;&#x3055;&#x3044;&#x3002;</p>
+<p>alert&#x306F;&#x6D88;&#x3057;&#x3061;&#x3083;&#x3063;&#x3066;&#x5927;&#x4E08;&#x592B;&#x3067;&#x3059;&#x3002;</p>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> count = <span class="hljs-number">10</span>;
+<span class="hljs-keyword">let</span> countText = <span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">&apos;count&apos;</span>);
+
+countText.textContent = count;
+</code></pre>
+<p><br></p>
+<p>&#x3053;&#x308C;&#x3067;&#x4FDD;&#x5B58;&#x3057;&#x3066;&#x30D6;&#x30E9;&#x30A6;&#x30B6;&#x3092;&#x30EA;&#x30ED;&#x30FC;&#x30C9;&#x3059;&#x308B;&#x3068;&#x753B;&#x50CF;&#x306E;&#x4E0A;&#x306B;10&#x3068;&#x3044;&#x3046;&#x6570;&#x5B57;&#x304C;&#x8868;&#x793A;&#x3055;&#x308C;&#x307E;&#x3057;&#x305F;&#x3002;</p>
+<p><img src="img/play11.png" alt="img-10"></p>
+<p><br></p>
+<p><code>let count = 10;</code>&#x3067;&#x300C;10&#x3068;&#x3044;&#x3046;&#x5024;&#x3092;count&#x3068;&#x3044;&#x3046;&#x5909;&#x6570;&#x306B;&#x4EE3;&#x5165;&#x3059;&#x308B;&#x300D;&#x3068;&#x3044;&#x3046;&#x610F;&#x5473;&#x306B;&#x306A;&#x308A;&#x307E;&#x3059;&#x3002;</p>
+<p>&#x305D;&#x3057;&#x3066;&#x3001;<code>let countText = document.getElementById(&apos;count&apos;);</code>&#x3067;&#x300C;id&#x540D;&#x304C;count&#x306E;&#x8981;&#x7D20;&#x3092;countText&#x3068;&#x3044;&#x3046;&#x5909;&#x6570;&#x306B;&#x4EE3;&#x5165;&#x3059;&#x308B;&#x300D;&#x3068;&#x3044;&#x3046;&#x610F;&#x5473;&#x306B;&#x306A;&#x308A;&#x307E;&#x3059;&#x3002;</p>
+<p>&#x4ECA;&#x56DE;&#x306E;&#x5834;&#x5408;&#x306F;&#x3001;index.html&#x3067;&#x8A18;&#x8FF0;&#x3057;&#x305F;<code>&lt;p id=&quot;count&quot;&gt;&lt;/p&gt;</code>&#x304C;&#x5165;&#x308A;&#x307E;&#x3057;&#x305F;&#x3002;</p>
+<p><code>countText.textContent = count;</code>&#x306F;&#x300C;count&#x3068;&#x3044;&#x3046;&#x5909;&#x6570;&#x306E;&#x5024;&#x3092;countText&#x306E;&#x30C6;&#x30AD;&#x30B9;&#x30C8;&#x306B;&#x4EE3;&#x5165;&#x3059;&#x308B;&#x300D;&#x3068;&#x3044;&#x3046;&#x610F;&#x5473;&#x3067;&#x3059;&#x3002;</p>
+<p>let&#x306E;&#x610F;&#x5473;&#x306F;&#x3044;&#x3063;&#x305F;&#x3093;&#x7F6E;&#x3044;&#x3066;&#x304A;&#x304D;&#x307E;&#x3059;&#x3002;&#x5909;&#x6570;&#x5BA3;&#x8A00;&#x306E;&#x6642;&#x306B;&#x3064;&#x3051;&#x308B;&#x3082;&#x306E;&#x3068;&#x601D;&#x3063;&#x3066;&#x3044;&#x3066;&#x304F;&#x3060;&#x3055;&#x3044;&#x3002;</p>
+<p><br></p>
+<hr>
+<h2 id="&#x30AF;&#x30EA;&#x30C3;&#x30AF;&#x3067;&#x30AB;&#x30A6;&#x30F3;&#x30C8;&#x3092;&#x6E1B;&#x3089;&#x3059;&#x6A5F;&#x80FD;&#x306E;&#x5B9F;&#x88C5;">3. &#x30AF;&#x30EA;&#x30C3;&#x30AF;&#x3067;&#x30AB;&#x30A6;&#x30F3;&#x30C8;&#x3092;&#x6E1B;&#x3089;&#x3059;&#x6A5F;&#x80FD;&#x306E;&#x5B9F;&#x88C5;</h2>
+<p>&#x6B21;&#x306B;&#x3053;&#x306E;&#x753B;&#x50CF;&#x3092;&#x30AF;&#x30EA;&#x30C3;&#x30AF;&#x3057;&#x305F;&#x3089;&#x30AB;&#x30A6;&#x30F3;&#x30C8;&#x6570;&#x3092;&#x6E1B;&#x3089;&#x305B;&#x308B;&#x3088;&#x3046;&#x306B;&#x3057;&#x305F;&#x3044;&#x3068;&#x601D;&#x3044;&#x307E;&#x3059;&#x3002;</p>
+<p>main.js&#x30D5;&#x30A1;&#x30A4;&#x30EB;&#x3092;&#x4EE5;&#x4E0B;&#x306E;&#x3088;&#x3046;&#x306B;&#x5909;&#x66F4;&#x3057;&#x3066;&#x304F;&#x3060;&#x3055;&#x3044;&#x3002;</p>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> eggImg = <span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">&apos;egg-img&apos;</span>);
+<span class="hljs-keyword">let</span> count = <span class="hljs-number">10</span>;
+<span class="hljs-keyword">let</span> countText = <span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">&apos;count&apos;</span>);
+
+countText.textContent = count;
+
+eggImg.onclick = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+    count--;
+
+    countText.textContent = count;
+};
+</code></pre>
+<p><br></p>
+<p>&#x8A18;&#x8FF0;&#x304C;&#x7D42;&#x308F;&#x3063;&#x305F;&#x3089;&#x4FDD;&#x5B58;&#x3057;&#x3066;&#x30D6;&#x30E9;&#x30A6;&#x30B6;&#x3092;&#x30EA;&#x30ED;&#x30FC;&#x30C9;&#x3057;&#x3066;&#x304F;&#x3060;&#x3055;&#x3044;&#x3002;</p>
+<p>&#x753B;&#x50CF;&#x3092;&#x30AF;&#x30EA;&#x30C3;&#x30AF;&#x3059;&#x308B;&#x3068;&#x3069;&#x3093;&#x3069;&#x3093;&#x30AB;&#x30A6;&#x30F3;&#x30C8;&#x6570;&#x304C;&#x6E1B;&#x3063;&#x3066;&#x3044;&#x308C;&#x3070;&#x6210;&#x529F;&#x3067;&#x3059;&#x3002;</p>
+<p><img src="img/play12.png" alt="img-12"></p>
+<p><br></p>
+<p><code>const eggImg = document.getElementById(&apos;egg-img&apos;);</code>&#x3067;&#x300C;id&#x540D;&#x304C;egg-img&#x306E;&#x8981;&#x7D20;&#x3092;eggImg&#x3068;&#x3044;&#x3046;&#x5909;&#x6570;&#x306B;&#x4EE3;&#x5165;&#x3059;&#x308B;&#x300D;&#x3068;&#x3044;&#x3046;&#x610F;&#x5473;&#x306B;&#x306A;&#x308A;&#x307E;&#x3059;&#x3002;</p>
+<p><code>eggImg.onclick = function() { }</code>&#x3067;&#x300C;eggImg&#x3092;&#x30AF;&#x30EA;&#x30C3;&#x30AF;&#x3057;&#x305F;&#x6642;&#x306B;function&#x5185;&#x30B3;&#x30FC;&#x30C9;&#x3092;&#x5B9F;&#x884C;&#x3059;&#x308B;&#x300D;&#x3068;&#x3044;&#x3046;&#x610F;&#x5473;&#x306B;&#x306A;&#x308A;&#x307E;&#x3059;&#x3002;</p>
+<p><code>count--</code>&#x300C;count&#x304B;&#x3089;1&#x3092;&#x5F15;&#x304F;&#xFF08;count = count - 1&#xFF09;&#x300D;</p>
+<p>&#x3067;&#x3001;&#x5F15;&#x3044;&#x305F;&#x30AB;&#x30A6;&#x30F3;&#x30C8;&#x6570;&#x3092;<code>countText.textContent = count;</code>&#x3067;countText&#x306E;&#x30C6;&#x30AD;&#x30B9;&#x30C8;&#x306B;&#x518D;&#x4EE3;&#x5165;&#x3057;&#x3066;&#x63CF;&#x753B;&#x3057;&#x3066;&#x3044;&#x307E;&#x3059;&#x3002;</p>
+<p>&#x3053;&#x308C;&#x3067;&#x30AF;&#x30EA;&#x30C3;&#x30AF;&#x3059;&#x308B;&#x5EA6;&#x306B;&#x30AB;&#x30A6;&#x30F3;&#x30C8;&#x6570;&#x304C;&#x6E1B;&#x3063;&#x3066;&#x3044;&#x304F;&#x3088;&#x3046;&#x306B;&#x306A;&#x308A;&#x307E;&#x3057;&#x305F;&#x3002;</p>
+<p><br></p>
+<h3 id="var&#x3001;let&#x3001;const&#x3068;&#x306F;">3.1. var&#x3001;let&#x3001;const&#x3068;&#x306F;</h3>
+<p>JavaScript&#x306E;&#x5909;&#x6570;&#x5BA3;&#x8A00;&#x3067;&#x306F;var&#x3001;let&#x3001;const&#x3092;&#x4F7F;&#x7528;&#x3057;&#x307E;&#x3059;&#x3002;</p>
+<p>&#x305D;&#x306E;&#x4E2D;&#x3067;&#x3001;let&#x3068;const&#x306F;&#x3001;ECMAScript2015&#x304B;&#x3089;&#x63A1;&#x7528;&#x3055;&#x308C;&#x305F;&#x65B0;&#x3057;&#x3044;&#x5BA3;&#x8A00;&#x65B9;&#x6CD5;&#x306B;&#x306A;&#x3063;&#x3066;&#x3044;&#x307E;&#x3059;&#x3002;</p>
+<p><br></p>
+<p>ECMAScript2015&#xFF08;&#x30A8;&#x30AF;&#x30DE;&#x30B9;&#x30AF;&#x30EA;&#x30D7;&#x30C8;&#xFF09;&#x3068;&#x306F;&#x3001;JavaScript&#x306E;&#x6A19;&#x6E96;&#x4ED5;&#x69D8;&#x3067;&#x3059;&#x3002;&#x56FD;&#x969B;&#x56E3;&#x4F53;&#x3067;&#x6A19;&#x6E96;&#x5316;&#x3055;&#x308C;&#x3001;Google Chrome &#x3084; Internet Explorer 11&#x4EE5;&#x964D;&#x7B49;&#x3001;&#x73FE;&#x4EE3;&#x306E;&#x30D6;&#x30E9;&#x30A6;&#x30B6;&#x3067;&#x5E83;&#x304F;&#x63A1;&#x7528;&#x3055;&#x308C;&#x3066;&#x3044;&#x307E;&#x3059;&#x3002;</p>
+<p><br></p>
+<p>let&#x3068;const&#x306B;&#x3088;&#x308A;&#x3001;&#x5909;&#x6570;&#x306E;&#x5024;&#x3092;&#x610F;&#x56F3;&#x305B;&#x305A;&#x4E0A;&#x66F8;&#x304D;&#x3057;&#x305F;&#x308A;&#x3001;&#x9593;&#x9055;&#x3063;&#x3066;&#x540C;&#x3058;&#x540D;&#x524D;&#x306E;&#x5909;&#x6570;&#x3092;&#x5BA3;&#x8A00;&#x3057;&#x3066;&#x3057;&#x307E;&#x3046;&#x3088;&#x3046;&#x306A;&#x30D0;&#x30B0;&#x3092;&#x9632;&#x6B62;&#x3067;&#x304D;&#x308B;&#x3088;&#x3046;&#x306B;&#x306A;&#x308A;&#x307E;&#x3057;&#x305F;&#x3002;</p>
+<p><br></p>
+<p>var&#x306F;&#x518D;&#x5BA3;&#x8A00;&#x3068;&#x518D;&#x4EE3;&#x5165;&#x304C;&#x3067;&#x304D;&#x308B;&#x5143;&#x3005;&#x306E;&#x5BA3;&#x8A00;</p>
+<p>let&#x306F;&#x518D;&#x4EE3;&#x5165;&#x306F;&#x3067;&#x304D;&#x308B;&#x304C;&#x518D;&#x5BA3;&#x8A00;&#x304C;&#x3067;&#x304D;&#x306A;&#x3044;</p>
+<p>const&#x306F;&#x518D;&#x5BA3;&#x8A00;&#x3068;&#x518D;&#x4EE3;&#x5165;&#x304C;&#x3067;&#x304D;&#x306A;&#x3044;</p>
+<p>&#x3068;&#x899A;&#x3048;&#x3066;&#x304A;&#x3044;&#x3066;&#x304F;&#x3060;&#x3055;&#x3044;&#x3002;</p>
+<p>&#x4ED6;&#x306B;&#x3082;&#x30B9;&#x30B3;&#x30FC;&#x30D7;&#x306E;&#x9055;&#x3044;&#x306A;&#x3069;&#x8272;&#x3005;&#x3042;&#x308B;&#x306E;&#x3067;&#x3059;&#x304C;&#x3001;&#x4ECA;&#x56DE;&#x306F;&#x5272;&#x611B;&#x3057;&#x307E;&#x3059;&#x3002;</p>
+<p><br></p>
+<hr>
+<h2 id="&#x30AB;&#x30A6;&#x30F3;&#x30C8;&#x6570;&#xFF10;&#x3067;&#x6B62;&#x3081;&#x308B;">4. &#x30AB;&#x30A6;&#x30F3;&#x30C8;&#x6570;&#xFF10;&#x3067;&#x6B62;&#x3081;&#x308B;</h2>
+<p>&#x3055;&#x3066;&#x3001;&#x753B;&#x50CF;&#x3092;&#x30AF;&#x30EA;&#x30C3;&#x30AF;&#x3059;&#x308B;&#x3068;&#x30AB;&#x30A6;&#x30F3;&#x30C8;&#x6570;&#x3092;&#x6E1B;&#x3089;&#x3059;&#x3053;&#x3068;&#x304C;&#x3067;&#x304D;&#x307E;&#x3057;&#x305F;&#x3002;</p>
+<p>&#x3057;&#x304B;&#x3057;&#x3001;&#x73FE;&#x72B6;&#x3067;&#x3059;&#x3068;&#x30AB;&#x30A6;&#x30F3;&#x30C8;&#x6570;&#x304C;0&#x306B;&#x306A;&#x3063;&#x3066;&#x3082;&#x30AF;&#x30EA;&#x30C3;&#x30AF;&#x3067;&#x304D;&#x3066;&#x3057;&#x307E;&#x3044;&#x307E;&#x3059;&#x3002;</p>
+<p>&#x3067;&#x3059;&#x306E;&#x3067;&#x4ECA;&#x56DE;&#x306F;&#x3001;&#x30AB;&#x30A6;&#x30F3;&#x30C8;&#x6570;&#x304C;0&#x306B;&#x306A;&#x3063;&#x305F;&#x3089;&#x30AB;&#x30A6;&#x30F3;&#x30C8;&#x306E;&#x63CF;&#x753B;&#x3092;&#x6B62;&#x3081;&#x3066;&#x3001;&#x753B;&#x50CF;&#x3092;&#x5909;&#x66F4;&#x3059;&#x308B;&#x3088;&#x3046;&#x306B;&#x3057;&#x305F;&#x3044;&#x3068;&#x601D;&#x3044;&#x307E;&#x3059;&#x3002;</p>
+<p>main.js&#x30D5;&#x30A1;&#x30A4;&#x30EB;&#x3092;&#x4EE5;&#x4E0B;&#x306E;&#x3088;&#x3046;&#x306B;&#x5909;&#x66F4;&#x3057;&#x3066;&#x304F;&#x3060;&#x3055;&#x3044;&#x3002;</p>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> eggImg = <span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">&apos;egg-img&apos;</span>);
+<span class="hljs-keyword">let</span> count = <span class="hljs-number">10</span>;
+<span class="hljs-keyword">let</span> countText = <span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">&apos;count&apos;</span>);
+
+countText.textContent = count;
+
+eggImg.onclick = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+    count--;
+
+    <span class="hljs-keyword">if</span> (count &lt;= <span class="hljs-number">0</span>) {
+        countText.textContent = <span class="hljs-string">&apos;&#x30EF;&#x30EC;&#x30EB;&#x30C8;&#x30AA;&#x30E2;&#x30A6;&#x30CA;&#x30E8;&apos;</span>;
+        <span class="hljs-keyword">this</span>.src = <span class="hljs-string">&apos;img/cracked-egg.png&apos;</span>;
+        <span class="hljs-keyword">return</span>;
+    }
+    countText.textContent = count;
+};
+</code></pre>
+<p><br></p>
+<p>&#x66F8;&#x304D;&#x7D42;&#x308F;&#x3063;&#x305F;&#x3089;&#x4FDD;&#x5B58;&#x3057;&#x3066;&#x30D6;&#x30E9;&#x30A6;&#x30B6;&#x3092;&#x30EA;&#x30ED;&#x30FC;&#x30C9;&#x3057;&#x3066;&#x304F;&#x3060;&#x3055;&#x3044;&#x3002;</p>
+<p>&#x753B;&#x50CF;&#x3092;&#x30AF;&#x30EA;&#x30C3;&#x30AF;&#x3057;&#x3066;&#x3044;&#x304D;&#x3001;0&#x306B;&#x306A;&#x3063;&#x305F;&#x3089;&#x4E0B;&#x306E;&#x753B;&#x50CF;&#x306E;&#x3088;&#x3046;&#x306B;&#x5909;&#x66F4;&#x3055;&#x308C;&#x3066;&#x3044;&#x308C;&#x3070;&#x6210;&#x529F;&#x3067;&#x3059;&#x3002;</p>
+<p><img src="img/play13.png" alt="img-13"></p>
+<p><br></p>
+<p><code>if (count &lt;= 0) { }</code>&#x300C;count&#x304C;0&#x4EE5;&#x4E0B;&#x3060;&#x3063;&#x305F;&#x5834;&#x5408;{ }&#x5185;&#x3092;&#x5B9F;&#x884C;&#x300D;</p>
+<p><code>countText.textContent = &apos;&#x30EF;&#x30EC;&#x30EB;&#x30C8;&#x30AA;&#x30E2;&#x30A6;&#x30CA;&#x30E8;&apos;;</code>&#x300C;&#x30EF;&#x30EC;&#x30EB;&#x30C8;&#x30AA;&#x30E2;&#x30A6;&#x30CA;&#x30E8;&#x3068;&#x3044;&#x3046;&#x30C6;&#x30AD;&#x30B9;&#x30C8;&#x3092;countText&#x306E;&#x30C6;&#x30AD;&#x30B9;&#x30C8;&#x306B;&#x4EE3;&#x5165;&#x300D;</p>
+<p><code>this.src = &apos;img/cracked-egg.png&apos;;</code>&#x300C;img/cracked-egg.png&#x3068;&#x3044;&#x3046;&#x30C6;&#x30AD;&#x30B9;&#x30C8;&#x3092;eggImg&#x306E;src&#x306B;&#x4EE3;&#x5165;&#x300D;<code>.src=</code>&#x3067;&#x305D;&#x306E;&#x8981;&#x7D20;&#x306E;src&#x5C5E;&#x6027;&#xFF08;&#x753B;&#x50CF;&#x306E;&#x30D1;&#x30B9;&#x7B49;&#xFF09;&#x3092;&#x4EE3;&#x5165;&#x3059;&#x308B;&#x3053;&#x3068;&#x304C;&#x3067;&#x304D;&#x307E;&#x3059;&#x3002;</p>
+<p><code>return;</code>&#x300C;&#x95A2;&#x6570;&#x3092;&#x629C;&#x3051;&#x308B;&#x300D;</p>
+<p><br></p>
+<p>&#x6B63;&#x78BA;&#x306B;&#x306F;&#x30AB;&#x30A6;&#x30F3;&#x30C8;&#x306F;&#x6B62;&#x307E;&#x3063;&#x3066;&#x3044;&#x306A;&#x3044;&#x306E;&#x3067;&#x3059;&#x304C;&#x3001;&#x3053;&#x308C;&#x3067;&#x30AB;&#x30A6;&#x30F3;&#x30C8;&#x6570;&#x304C;&#x30DE;&#x30A4;&#x30CA;&#x30B9;&#x306B;&#x306A;&#x308B;&#x3053;&#x3068;&#x304C;&#x306A;&#x304F;&#x306A;&#x308A;&#x307E;&#x3057;&#x305F;&#x3002;</p>
+<p>&#x3053;&#x308C;&#x3067;&#x57FA;&#x672C;&#x7684;&#x306A;100&#x4E07;&#x306E;&#x5375;&#x306E;&#x5B9F;&#x88C5;&#x306F;&#x5B8C;&#x4E86;&#x3067;&#x3059;&#x3002;</p>
+<p><br></p>
+<h2 id="&#x30AB;&#x30A6;&#x30F3;&#x30C8;&#x6570;&#x3092;&#x4FDD;&#x5B58;&#x3059;&#x308B;">5. &#x30AB;&#x30A6;&#x30F3;&#x30C8;&#x6570;&#x3092;&#x4FDD;&#x5B58;&#x3059;&#x308B;</h2>
+<p>&#x52D5;&#x304D;&#x306F;&#x3067;&#x304D;&#x305F;&#x306E;&#x3067;&#x3059;&#x304C;&#x3001;&#x3053;&#x306E;&#x307E;&#x307E;&#x3067;&#x306F;&#x30D6;&#x30E9;&#x30A6;&#x30B6;&#x3092;&#x30EA;&#x30ED;&#x30FC;&#x30C9;&#x3059;&#x308B;&#x3068;&#x30AB;&#x30A6;&#x30F3;&#x30C8;&#x6570;&#x304C;&#x521D;&#x671F;&#x5024;&#xFF08;10&#xFF09;&#x306B;&#x623B;&#x3063;&#x3066;&#x3057;&#x307E;&#x3044;&#x307E;&#x3059;&#x3002;</p>
+<p>&#x4ECA;&#x306F;10&#x306A;&#x306E;&#x3067;&#x3001;&#x623B;&#x3063;&#x3066;&#x3082;&#x305D;&#x3093;&#x306A;&#x306B;&#x5927;&#x3057;&#x305F;&#x3053;&#x3068;&#x306A;&#x3044;&#x3067;&#x3059;&#x304C;&#x3001;1,000,000&#x3060;&#x3068;&#x9811;&#x5F35;&#x3063;&#x3066;&#x9014;&#x4E2D;&#x307E;&#x3067;&#x3084;&#x3063;&#x305F;&#x306E;&#x306B;&#x30EA;&#x30ED;&#x30FC;&#x30C9;&#x3057;&#x305F;&#x77AC;&#x9593;&#x306B;&#x5143;&#x306B;&#x623B;&#x3063;&#x305F;&#x3089;&#x767A;&#x72C2;&#x3057;&#x3061;&#x3083;&#x3046;&#x304B;&#x3082;&#x3057;&#x308C;&#x307E;&#x305B;&#x3093;&#x3002;</p>
+<p><br></p>
+<h3 id="localStorage&#x3092;&#x4F7F;&#x3063;&#x3066;&#x307F;&#x308B;">5.1. localStorage&#x3092;&#x4F7F;&#x3063;&#x3066;&#x307F;&#x308B;</h3>
+<p>&#x306A;&#x306E;&#x3067;&#x81EA;&#x5206;&#x304C;&#x4F55;&#x56DE;&#x30AF;&#x30EA;&#x30C3;&#x30AF;&#x3057;&#x305F;&#x306E;&#x304B;&#x3092;&#x4FDD;&#x5B58;&#x3059;&#x308B;&#x6A5F;&#x80FD;&#x3092;&#x5B9F;&#x88C5;&#x3057;&#x305F;&#x3044;&#x3068;&#x601D;&#x3044;&#x307E;&#x3059;&#x3002;</p>
+<p>&#x672C;&#x5F53;&#x306F;&#x30B5;&#x30FC;&#x30D0;&#x30FC;&#x7B49;&#x306B;&#x4FDD;&#x5B58;&#x3059;&#x308B;&#x306E;&#x304C;&#xFF11;&#x756A;&#x3044;&#x3044;&#x306E;&#x3067;&#x3059;&#x304C;&#x3001;&#x4ECA;&#x56DE;&#x306F;&#x304A;&#x8A66;&#x3057;&#x3068;&#x3044;&#x3046;&#x3053;&#x3068;&#x3067;&#x300C;localStorage&#x300D;&#x3092;&#x4F7F;&#x3063;&#x3066;&#x3044;&#x304D;&#x307E;&#x3059;&#x3002;</p>
+<p>&#x200B;<br></p>
+<h2 id="localStorage&#x3068;&#x306F;">6. localStorage&#x3068;&#x306F;</h2>
+<p>LocalStorage&#x3068;&#x306F;WebStorage&#x3068;&#x547C;&#x3070;&#x308C;&#x308B;&#x3082;&#x306E;&#x306E;&#x4E00;&#x3064;&#x3067;&#x3001;javascript&#x3092;&#x7528;&#x3044;&#x3066;&#x30AF;&#x30E9;&#x30A4;&#x30A2;&#x30F3;&#x30C8;&#x5074;&#x306B;&#x30C7;&#x30FC;&#x30BF;&#x3092;&#x4FDD;&#x5B58;&#x3059;&#x308B;&#x4ED5;&#x7D44;&#x307F;&#x3067;&#x3059;&#x3002;</p>
+<p>&#x30E6;&#x30FC;&#x30B6;&#x306E;&#x30ED;&#x30FC;&#x30AB;&#x30EB;(&#x30D6;&#x30E9;&#x30A6;&#x30B6;)&#x306B;&#x30C7;&#x30FC;&#x30BF;&#x3092;&#x4FDD;&#x5B58;&#x3059;&#x308B;&#x3053;&#x3068;&#x304C;&#x3067;&#x304D;&#x308B;&#x306E;&#x3067;&#x3001;&#x534A;&#x6C38;&#x4E45;&#x7684;&#x306B;&#x30C7;&#x30FC;&#x30BF;&#x3092;&#x4FDD;&#x6301;&#x3059;&#x308B;&#x3053;&#x3068;&#x304C;&#x3067;&#x304D;&#x307E;&#x3059;&#x3002;&#x30C7;&#x30FC;&#x30BF;&#x306E;&#x8AAD;&#x307F;&#x8FBC;&#x307F;&#x30FB;&#x66F4;&#x65B0;&#x3082;&#x6BD4;&#x8F03;&#x7684;&#x7C21;&#x5358;&#x306B;&#x884C;&#x3046;&#x3053;&#x3068;&#x304C;&#x3067;&#x304D;&#x307E;&#x3059;&#x3002;</p>
+<p><br></p>
+<p>&#x3053;&#x306E;localStorage&#x3092;&#x4F7F;&#x3063;&#x3066;&#x81EA;&#x8EAB;&#x306E;&#x30D6;&#x30E9;&#x30A6;&#x30B6;&#x306B;&#x30C7;&#x30FC;&#x30BF;&#x3092;&#x4FDD;&#x5B58;&#x3057;&#x307E;&#x3059;&#x3002;</p>
+<p>&#x3061;&#x306A;&#x307F;&#x306B;&#x4ECA;&#x56DE;&#x306F;&#x3053;&#x306E;&#x65B9;&#x6CD5;&#x3092;&#x4F7F;&#x3044;&#x307E;&#x3057;&#x305F;&#x304C;&#x3001;localStorage&#x306F;&#x30E6;&#x30FC;&#x30B6;&#x30FC;&#x5074;&#x3067;&#x7C21;&#x5358;&#x306B;&#x30C7;&#x30FC;&#x30BF;&#x3092;&#x6539;&#x5909;&#x3067;&#x304D;&#x308B;&#x306E;&#x3067;&#x30EA;&#x30EA;&#x30FC;&#x30B9;&#x3059;&#x308B;&#x6642;&#x306A;&#x3069;&#x306F;&#x304A;&#x52E7;&#x3081;&#x3057;&#x307E;&#x305B;&#x3093;&#xFF01;</p>
+<p><br></p>
+<p>main.js&#x3092;&#x4EE5;&#x4E0B;&#x306E;&#x3088;&#x3046;&#x306B;&#x4FEE;&#x6B63;&#x3057;&#x3066;&#x304F;&#x3060;&#x3055;&#x3044;&#x3002;</p>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> intialValue = <span class="hljs-number">10</span>;
+<span class="hljs-keyword">const</span> eggImg = <span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">&apos;egg-img&apos;</span>);
+<span class="hljs-keyword">let</span> count = localStorage.getItem(<span class="hljs-string">&apos;tapCount&apos;</span>);
+<span class="hljs-keyword">let</span> countText = <span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">&apos;count&apos;</span>);
+
+<span class="hljs-keyword">if</span> (!localStorage.getItem(<span class="hljs-string">&apos;tapCount&apos;</span>)) {
+    count = intialValue;
+}
+countText.textContent = count;
+
+eggImg.onclick = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+    count--;
+    localStorage.setItem(<span class="hljs-string">&apos;tapCount&apos;</span>, count);
+
+    <span class="hljs-keyword">if</span> (count &lt;= <span class="hljs-number">0</span>) {
+        countText.textContent = <span class="hljs-string">&apos;&#x30EF;&#x30EC;&#x30EB;&#x30C8;&#x30AA;&#x30E2;&#x30A6;&#x30CA;&#x30E8;&apos;</span>;
+        <span class="hljs-keyword">this</span>.src = <span class="hljs-string">&apos;img/cracked-egg.png&apos;</span>;
+        localStorage.removeItem(<span class="hljs-string">&apos;tapCount&apos;</span>);
+        <span class="hljs-keyword">return</span>;
+    }
+    countText.textContent = count;
+};
+</code></pre>
+<p><code>const intialValue = 10;</code>&#x521D;&#x671F;&#x5024;&#x3092;&#x4EE3;&#x5165;&#x3057;&#x3066;&#x304A;&#x304F;</p>
+<p><code>let count = localStorage.getItem(&apos;tapCount&apos;);</code>&#x300C;tapCount&#x3068;&#x3044;&#x3046;Key (&#x540D;&#x524D;)&#x306E;Value&#xFF08;&#x5024;&#xFF09;&#x3092;&#x30ED;&#x30FC;&#x30AB;&#x30EB;&#x30B9;&#x30C8;&#x30EC;&#x30FC;&#x30B8;&#x304B;&#x3089;&#x53D6;&#x3063;&#x3066;&#x304D;&#x3066;count&#x3068;&#x3044;&#x3046;&#x5909;&#x6570;&#x306B;&#x4EE3;&#x5165;&#x3059;&#x308B;&#x300D;</p>
+<p><code>if (!localStorage.getItem(&apos;tapCount&apos;)) { }</code>&#x300C;tapCount&#x3068;&#x3044;&#x3046;Key&#x304C;&#x306A;&#x304B;&#x3063;&#x305F;&#x5834;&#x5408;&#xFF08;&#x307E;&#x3060;&#x4FDD;&#x5B58;&#x3055;&#x308C;&#x3066;&#x3044;&#x306A;&#x3044;&#x5834;&#x5408;&#xFF09;&#x3001;{ }&#x5185;&#x3092;&#x5B9F;&#x884C;&#x3059;&#x308B;&#x300D;</p>
+<p><code>localStorage.setItem(&apos;tapCount&apos;, count);</code>&#x300C;tapCount&#x3068;&#x3044;&#x3046;Key&#x3067;count&#x3068;&#x3044;&#x3046;Value&#x3092;&#x30ED;&#x30FC;&#x30AB;&#x30EB;&#x30B9;&#x30C8;&#x30EC;&#x30FC;&#x30B8;&#x306B;&#x4FDD;&#x5B58;&#x3059;&#x308B;&#x300D;</p>
+<p><code>localStorage.removeItem(&apos;tapCount&apos;);</code>&#x300C;tapCount&#x3068;&#x3044;&#x3046;Key&#x306E;&#x5024;&#x3092;&#x30ED;&#x30FC;&#x30AB;&#x30EB;&#x30B9;&#x30C8;&#x30EC;&#x30FC;&#x30B8;&#x304B;&#x3089;&#x524A;&#x9664;&#x3059;&#x308B;&#x300D;</p>
+<p><br></p>
+<p>&#x3053;&#x3053;&#x307E;&#x3067;&#x66F8;&#x304D;&#x7D42;&#x308F;&#x3063;&#x305F;&#x3089;&#x4FDD;&#x5B58;&#x3057;&#x3066;&#x30D6;&#x30E9;&#x30A6;&#x30B6;&#x3092;&#x30EA;&#x30ED;&#x30FC;&#x30C9;&#x3057;&#x3066;&#x304F;&#x3060;&#x3055;&#x3044;&#x3002;</p>
+<p>&#x30AB;&#x30A6;&#x30F3;&#x30C8;&#x6570;&#x3092;&#x5C11;&#x3057;&#x6E1B;&#x3089;&#x3057;&#x3066;&#x3001;&#x30D6;&#x30E9;&#x30A6;&#x30B6;&#x3092;&#x30EA;&#x30ED;&#x30FC;&#x30C9;&#x3057;&#x3066;&#x304F;&#x3060;&#x3055;&#x3044;&#x3002;&#x304D;&#x3061;&#x3093;&#x3068;&#x524D;&#x306E;&#x30AF;&#x30EA;&#x30C3;&#x30AF;&#x6570;&#x304B;&#x3089;&#x30B9;&#x30BF;&#x30FC;&#x30C8;&#x3067;&#x304D;&#x3066;&#x3044;&#x308C;&#x3070;&#x6210;&#x529F;&#x3067;&#x3059;&#x3002;</p>
+<p><br></p>
+<hr>
+<h2 id="&#x52B9;&#x679C;&#x97F3;&#x3092;&#x3064;&#x3051;&#x3066;&#x307F;&#x308B;">7. &#x52B9;&#x679C;&#x97F3;&#x3092;&#x3064;&#x3051;&#x3066;&#x307F;&#x308B;</h2>
+<p>&#x3060;&#x3044;&#x3076;&#x5F62;&#x306B;&#x306F;&#x306A;&#x3063;&#x305F;&#x306E;&#x3067;&#x3059;&#x304C;&#x3001;&#x3061;&#x3087;&#x3063;&#x3068;&#x5BC2;&#x3057;&#x3044;&#x306E;&#x3067;&#x30AF;&#x30EA;&#x30C3;&#x30AF;&#x3057;&#x305F;&#x6642;&#x306B;&#x52B9;&#x679C;&#x97F3;&#x304C;&#x9CF4;&#x308B;&#x3088;&#x3046;&#x306B;&#x3057;&#x305F;&#x3044;&#x3068;&#x601D;&#x3044;&#x307E;&#x3059;&#x3002;</p>
+<p>&#x52B9;&#x679C;&#x97F3;&#x304C;&#x3042;&#x308B;&#x524D;&#x63D0;&#x306A;&#x306E;&#x3067;&#x3001;&#x307E;&#x3060;&#x30C0;&#x30A6;&#x30F3;&#x30ED;&#x30FC;&#x30C9;&#x3057;&#x3066;&#x3044;&#x306A;&#x3044;&#x65B9;&#x306F;&#x30C0;&#x30A6;&#x30F3;&#x30ED;&#x30FC;&#x30C9;&#x3057;&#x3066;sound&#x30D5;&#x30A9;&#x30EB;&#x30C0;&#x30FC;&#x306B;&#x5165;&#x308C;&#x3066;&#x304F;&#x3060;&#x3055;&#x3044;&#x3002;</p>
+<p><br></p>
+<p>&#x307E;&#x305A;&#x306F;&#x300C;index.html&#x300D;&#x30D5;&#x30A1;&#x30A4;&#x30EB;&#x3092;&#x958B;&#x304D;&#x3001;&#x4E0B;&#x8A18;&#x306E;&#x3088;&#x3046;&#x306B;&#x5909;&#x66F4;&#x3057;&#x3066;&#x304F;&#x3060;&#x3055;&#x3044;&#x3002;</p>
+<p>body&#x306E;&#x9589;&#x3058;&#x30BF;&#x30B0;&#x306E;&#x524D;&#x306B;audio&#x30BF;&#x30B0;&#x3092;&#x8FFD;&#x52A0;&#x3057;&#x307E;&#x3057;&#x305F;&#x3002;</p>
+<pre><code class="lang-html"><span class="hljs-meta">&lt;!DOCTYPE html&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">&quot;ja&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">charset</span>=<span class="hljs-string">&quot;utf-8&quot;</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">title</span>&gt;</span>100&#x4E07;&#x306E;&#x5375;<span class="hljs-tag">&lt;/<span class="hljs-name">title</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">link</span> <span class="hljs-attr">rel</span>=<span class="hljs-string">&quot;stylesheet&quot;</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;css/style.css&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;count&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;img-box&quot;</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;egg-img&quot;</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;img/egg.png&quot;</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+
+        <span class="hljs-tag">&lt;<span class="hljs-name">audio</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;tap-sound&quot;</span> <span class="hljs-attr">preload</span>=<span class="hljs-string">&quot;auto&quot;</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">source</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;sound/tap.mp3&quot;</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;audio/mp3&quot;</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">audio</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;js/main.js&quot;</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span>
+</code></pre>
+<p><br></p>
+<p><code>&lt;audio&gt;</code> &#x8981;&#x7D20;&#x306F;&#x3001;&#x6587;&#x66F8;&#x5185;&#x306B;&#x97F3;&#x58F0;&#x30B3;&#x30F3;&#x30C6;&#x30F3;&#x30C4;&#x3092;&#x57CB;&#x3081;&#x8FBC;&#x3080;&#x305F;&#x3081;&#x306B;&#x4F7F;&#x7528;&#x3057;&#x307E;&#x3059;&#x3002;</p>
+<p>&#x3053;&#x306E;&#x8981;&#x7D20;&#x306F;&#x3001;1&#x3064;&#x307E;&#x305F;&#x306F;&#x8907;&#x6570;&#x306E;&#x97F3;&#x6E90;&#x3092;&#x542B;&#x3080;&#x3053;&#x3068;&#x304C;&#x3067;&#x304D;&#x3001;&#x97F3;&#x6E90;&#x306F; src &#x5C5E;&#x6027;&#x307E;&#x305F;&#x306F;<code>&lt;source&gt;</code> &#x8981;&#x7D20;&#x3092;&#x4F7F;&#x7528;&#x3057;&#x3066;&#x8868;&#x3057;&#x3001;&#x30D6;&#x30E9;&#x30A6;&#x30B6;&#x30FC;&#x304C;&#x3082;&#x3063;&#x3068;&#x3082;&#x9069;&#x5207;&#x306A;&#x97F3;&#x6E90;&#x3092;&#x9078;&#x629E;&#x3057;&#x307E;&#x3059;&#x3002;</p>
+<p><br></p>
+<p>&#x6B21;&#x306B;main.js&#x30D5;&#x30A1;&#x30A4;&#x30EB;&#x3092;&#x958B;&#x304D;&#x3001;&#x4EE5;&#x4E0B;&#x306E;&#x3088;&#x3046;&#x306B;&#x5909;&#x66F4;&#x3057;&#x3066;&#x304F;&#x3060;&#x3055;&#x3044;&#x3002;</p>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> initialValue = <span class="hljs-number">10</span>;
+<span class="hljs-keyword">const</span> eggImg = <span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">&apos;egg-img&apos;</span>);
+<span class="hljs-keyword">const</span> tapSound = <span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">&apos;tap-sound&apos;</span>);
+<span class="hljs-keyword">let</span> count = localStorage.getItem(<span class="hljs-string">&apos;tapCount&apos;</span>);
+<span class="hljs-keyword">let</span> countText = <span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">&apos;count&apos;</span>);
+
+<span class="hljs-keyword">if</span> (!localStorage.getItem(<span class="hljs-string">&apos;tapCount&apos;</span>)) {
+    count = initialValue;
+}
+countText.textContent = count;
+
+eggImg.onclick = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+    count--;
+    localStorage.setItem(<span class="hljs-string">&apos;tapCount&apos;</span>, count);
+
+    <span class="hljs-keyword">if</span> (count &lt;= <span class="hljs-number">0</span>) {
+        countText.textContent = <span class="hljs-string">&apos;&#x30EF;&#x30EC;&#x30EB;&#x30C8;&#x30AA;&#x30E2;&#x30A6;&#x30CA;&#x30E8;&apos;</span>;
+        <span class="hljs-keyword">this</span>.src = <span class="hljs-string">&apos;img/cracked-egg.png&apos;</span>;
+        localStorage.removeItem(<span class="hljs-string">&apos;tapCount&apos;</span>);
+        <span class="hljs-keyword">return</span>;
+    }
+    countText.textContent = count;
+    tapSound.currentTime = <span class="hljs-number">0</span>;
+    tapSound.play();
+};
+</code></pre>
+<p><code>const tapSound = document.getElementById(&apos;tap-sound&apos;);</code>&#x300C;tap-sound&#x3068;&#x3044;&#x3046;id&#x540D;&#x306E;&#x8981;&#x7D20;&#x3092;tapSound&#x3068;&#x3044;&#x3046;&#x5909;&#x6570;&#x306B;&#x4EE3;&#x5165;&#x3059;&#x308B;&#x300D;</p>
+<p><code>tapSound.currentTime = 0;</code>&#x300C;tapSound(audio&#x8981;&#x7D20;)&#x306E;&#x518D;&#x751F;&#x4F4D;&#x7F6E;&#x3092;0&#xFF08;&#x5148;&#x982D;&#xFF09;&#x306B;&#x3059;&#x308B;&#x300D;&#x901A;&#x5E38;&#x97F3;&#x30D5;&#x30A1;&#x30A4;&#x30EB;&#x304C;&#x518D;&#x751F;&#x3057;&#x7D42;&#x308F;&#x3089;&#x306A;&#x3051;&#x308C;&#x3070;&#x6B21;&#x306E;&#x97F3;&#x3092;&#x518D;&#x751F;&#x3067;&#x304D;&#x306A;&#x3044;&#x306E;&#x3067;&#x3059;&#x304C;&#x3001;&#x305D;&#x308C;&#x3060;&#x3068;&#x9023;&#x6253;&#x3057;&#x305F;&#x6642;&#x306B;&#x97F3;&#x304C;&#x305A;&#x308C;&#x3066;&#x3057;&#x307E;&#x3046;&#x306E;&#x3067;&#x97F3;&#x3092;&#x9CF4;&#x3089;&#x3059;&#x524D;&#x306B;&#x518D;&#x751F;&#x4F4D;&#x7F6E;&#x3092;&#x6700;&#x521D;&#x306B;&#x623B;&#x3057;&#x3066;&#x3084;&#x308A;&#x307E;&#x3059;&#x3002;</p>
+<p><code>tapSound.play();</code>&#x300C;tapSound(audio&#x8981;&#x7D20;)&#x3092;&#x518D;&#x751F;&#x3059;&#x308B;&#x300D;</p>
+<p>&#x3053;&#x3053;&#x307E;&#x3067;&#x66F8;&#x3051;&#x305F;&#x3089;&#x5FD8;&#x308C;&#x305A;&#x306B;index.html&#x30D5;&#x30A1;&#x30A4;&#x30EB;&#x3068;main.js&#x30D5;&#x30A1;&#x30A4;&#x30EB;&#x3092;&#x4FDD;&#x5B58;&#x3057;&#x3001;&#x30D6;&#x30E9;&#x30A6;&#x30B6;&#x3092;&#x30EA;&#x30ED;&#x30FC;&#x30C9;&#x3057;&#x3066;&#x304F;&#x3060;&#x3055;&#x3044;&#x3002;</p>
+<p>&#x30AF;&#x30EA;&#x30C3;&#x30AF;&#x3059;&#x308B;&#x5EA6;&#x306B;&#x52B9;&#x679C;&#x97F3;&#x304C;&#x518D;&#x751F;&#x3055;&#x308C;&#x3066;&#x3044;&#x308C;&#x3070;&#x6210;&#x529F;&#x3067;&#x3059;&#x3002;</p>
+<h2 id="&#x9707;&#x308F;&#x305B;&#x3066;&#x307F;&#x308B;">8. &#x9707;&#x308F;&#x305B;&#x3066;&#x307F;&#x308B;</h2>
+<p>&#x6700;&#x5F8C;&#x306F;&#x304A;&#x307E;&#x3051;&#x3067;&#x3059;&#x3002;</p>
+<p>&#x52B9;&#x679C;&#x97F3;&#x306F;&#x9CF4;&#x308B;&#x3051;&#x3069;&#x3044;&#x307E;&#x3044;&#x3061;&#x30AF;&#x30EA;&#x30C3;&#x30AF;&#x3057;&#x3066;&#x308B;&#x611F;&#x3058;&#x304C;&#x3057;&#x306A;&#x3044;&#x306E;&#x3067;&#x3001;&#x6700;&#x5F8C;&#x306B;&#x30AF;&#x30EA;&#x30C3;&#x30AF;&#x3059;&#x308B;&#x5EA6;&#x306B;&#x30D7;&#x30EB;&#x30D7;&#x30EB;&#x9707;&#x3048;&#x308B;&#x3088;&#x3046;&#x306B;&#x3057;&#x305F;&#x3044;&#x3068;&#x601D;&#x3044;&#x307E;&#x3059;&#x3002;</p>
+<p>&#x3084;&#x308A;&#x65B9;&#x306F;&#x8272;&#x3005;&#x3042;&#x308B;&#x306E;&#x3067;&#x3059;&#x304C;&#x3001;&#x4ECA;&#x56DE;&#x306F;CSS&#x306E;&#x30A2;&#x30CB;&#x30E1;&#x30FC;&#x30B7;&#x30E7;&#x30F3;&#x3092;&#x4F7F;&#x3044;&#x305F;&#x3044;&#x3068;&#x601D;&#x3044;&#x307E;&#x3059;&#x3002;</p>
+<p><br></p>
+<p>style.css&#x3092;&#x958B;&#x3044;&#x3066;&#x4EE5;&#x4E0B;&#x306E;&#x3088;&#x3046;&#x306B;&#x5909;&#x66F4;&#x3057;&#x3066;&#x304F;&#x3060;&#x3055;&#x3044;&#x3002;</p>
+<pre><code class="lang-css"><span class="hljs-selector-id">#count</span> {
+    <span class="hljs-attribute">font-size</span>: <span class="hljs-number">60px</span>;
+    <span class="hljs-attribute">text-align</span>: center;
+}
+
+<span class="hljs-selector-class">.img-box</span> {
+    <span class="hljs-attribute">text-align</span>: center;
+}
+<span class="hljs-selector-class">.egg-tap</span> {
+    <span class="hljs-attribute">animation</span>: buruburu .<span class="hljs-number">1s</span> infinite;
+}
+
+@<span class="hljs-keyword">keyframes</span> buruburu {
+    0% { <span class="hljs-attribute">transform</span>: <span class="hljs-built_in">translate</span>(0px, 0px) <span class="hljs-built_in">rotateZ</span>(0deg); }
+    25% { <span class="hljs-attribute">transform</span>: <span class="hljs-built_in">translate</span>(2px, 2px) <span class="hljs-built_in">rotateZ</span>(1deg); }
+    50% { <span class="hljs-attribute">transform</span>: <span class="hljs-built_in">translate</span>(0px, 2px) <span class="hljs-built_in">rotateZ</span>(0deg); }
+    75% { <span class="hljs-attribute">transform</span>: <span class="hljs-built_in">translate</span>(2px, 0px) <span class="hljs-built_in">rotateZ</span>(-1deg); }
+    100% { <span class="hljs-attribute">transform</span>: <span class="hljs-built_in">translate</span>(0px, 0px) <span class="hljs-built_in">rotateZ</span>(0deg); }
+}
+<span class="hljs-selector-id">#egg-img</span> {
+    <span class="hljs-attribute">width</span>: <span class="hljs-number">30%</span>;
+}
+</code></pre>
+<p><br></p>
+<p>@keyframes&#x306F;&#x30A2;&#x30CB;&#x30E1;&#x30FC;&#x30B7;&#x30E7;&#x30F3;&#x958B;&#x59CB;&#x304B;&#x3089;&#x7D42;&#x4E86;&#x3059;&#x308B;&#x307E;&#x3067;&#x3069;&#x306E;&#x3088;&#x3046;&#x306A;&#x30A2;&#x30CB;&#x30E1;&#x30FC;&#x30B7;&#x30E7;&#x30F3;&#x3092;&#x3059;&#x308B;&#x306E;&#x304B;&#x6307;&#x5B9A;&#x3067;&#x304D;&#x308B;CSS&#x306E;&#x6587;&#x6CD5;&#x3067;&#x3059;&#x3002;
+@keyframes&#x306F;&#xFF20;&#x898F;&#x5247;&#x306E;&#x305F;&#x3081;&#x3001;&#xFF20;&#x304B;&#x3089;&#x59CB;&#x307E;&#x308A;&#x3001;&#x6CE2;&#x304B;&#x3063;&#x3053;&#x5185;&#x306B;&#x8A18;&#x8FF0;&#x3057;&#x307E;&#x3059;&#x3002;</p>
+<p>animation&#x30D7;&#x30ED;&#x30D1;&#x30C6;&#x30A3;&#x306F;&#x305D;&#x306E;&#x540D;&#x306E;&#x901A;&#x308A;&#x3001;&#x30A2;&#x30CB;&#x30E1;&#x30FC;&#x30B7;&#x30E7;&#x30F3;&#x306E;&#x30D7;&#x30ED;&#x30D1;&#x30C6;&#x30A3;&#xFF08;&#x958B;&#x59CB;&#x304B;&#x3089;&#x7D42;&#x4E86;&#x307E;&#x3067;&#x306E;&#x6642;&#x9593;&#x3001;&#x7E70;&#x308A;&#x8FD4;&#x3057;&#x56DE;&#x6570;&#x306A;&#x3069;&#xFF09;&#x3092;&#x6307;&#x5B9A;&#x3057;&#x307E;&#x3059;&#x3002;</p>
+<p><code>animation: buruburu .1s infinite;</code>&#x306F;&#x300C;buruburu&#x3068;&#x3044;&#x3046;&#x540D;&#x524D;&#x306E;&#x30A2;&#x30CB;&#x30E1;&#x30FC;&#x30B7;&#x30E7;&#x30F3;&#x3092;0.1&#x79D2;&#x304B;&#x3051;&#x3066;&#x5B9F;&#x884C;&#x3057;&#x3001;&#x305D;&#x308C;&#x3092;&#x7121;&#x9650;&#x306B;&#x7E70;&#x308A;&#x8FD4;&#x3059;&#x300D;&#x3068;&#x3044;&#x3046;&#x610F;&#x5473;&#x306B;&#x306A;&#x308A;&#x307E;&#x3059;&#x3002;</p>
+<p><br></p>
+<p>&#x305D;&#x3057;&#x3066;&#x3053;&#x306E;&#x30A2;&#x30CB;&#x30E1;&#x30FC;&#x30B7;&#x30E7;&#x30F3;&#x306F;egg-tap&#x3068;&#x3044;&#x3046;Class&#x304C;&#x3064;&#x3044;&#x305F;&#x8981;&#x7D20;&#x306B;&#x5B9F;&#x884C;&#x3055;&#x308C;&#x308B;&#x306E;&#x3067;&#x3001;JS&#x5074;&#x3067;&#x30AF;&#x30EA;&#x30C3;&#x30AF;&#x3057;&#x305F;&#x6642;&#x306B;&#x3053;&#x306E;Class&#x3092;&#x3064;&#x3051;&#x305F;&#x3044;&#x3068;&#x601D;&#x3044;&#x307E;&#x3059;&#x3002;</p>
+<p><br></p>
+<p>main.js&#x30D5;&#x30A1;&#x30A4;&#x30EB;&#x3092;&#x958B;&#x304D;&#x3001;&#x4E0B;&#x8A18;&#x306E;&#x3088;&#x3046;&#x306B;&#x5909;&#x66F4;&#x3057;&#x3066;&#x304F;&#x3060;&#x3055;&#x3044;&#x3002;</p>
+<pre><code class="lang-js"><span class="hljs-keyword">const</span> initialValue = <span class="hljs-number">10</span>;
+<span class="hljs-keyword">const</span> eggImg = <span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">&apos;egg-img&apos;</span>);
+<span class="hljs-keyword">const</span> tapSound = <span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">&apos;tap-sound&apos;</span>);
+<span class="hljs-keyword">let</span> count = localStorage.getItem(<span class="hljs-string">&apos;tapCount&apos;</span>);
+<span class="hljs-keyword">let</span> countText = <span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">&apos;count&apos;</span>);
+
+<span class="hljs-keyword">if</span> (!localStorage.getItem(<span class="hljs-string">&apos;tapCount&apos;</span>)) {
+    count = initialValue;
+}
+countText.textContent = count;    
+
+eggImg.onclick = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+    count--;
+    localStorage.setItem(<span class="hljs-string">&apos;tapCount&apos;</span>, count);
+
+    <span class="hljs-keyword">if</span> (count &lt;= <span class="hljs-number">0</span>) {
+        countText.textContent = <span class="hljs-string">&apos;&#x30EF;&#x30EC;&#x30EB;&#x30C8;&#x30AA;&#x30E2;&#x30A6;&#x30CA;&#x30E8;&apos;</span>;
+        <span class="hljs-keyword">this</span>.src = <span class="hljs-string">&apos;img/cracked-egg.png&apos;</span>;
+        localStorage.removeItem(<span class="hljs-string">&apos;tapCount&apos;</span>);
+        <span class="hljs-keyword">return</span>;
+    }
+    countText.textContent = count;
+    tapSound.currentTime = <span class="hljs-number">0</span>;
+    tapSound.play();
+    <span class="hljs-keyword">this</span>.classList.add(<span class="hljs-string">&apos;egg-tap&apos;</span>);
+    setTimeout(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+        eggImg.classList.remove(<span class="hljs-string">&apos;egg-tap&apos;</span>);
+    }, <span class="hljs-number">200</span>);
+};
+</code></pre>
+<p><code>this.classList.add(&apos;egg-tap&apos;);</code>&#x3067;&#x300C;eggImg&#x306B;egg-tap&#x3068;&#x3044;&#x3046;&#x30AF;&#x30E9;&#x30B9;&#x540D;&#x3092;&#x8FFD;&#x52A0;&#x3059;&#x308B;&#x300D;&#x3068;&#x3044;&#x3046;&#x610F;&#x5473;&#x306B;&#x306A;&#x308A;&#x307E;&#x3059;&#x3002;</p>
+<p><code>setTimeout(function() {}, 200);</code>&#x3067;&#x300C;0.2&#x79D2;&#x5F8C;&#x306B;function&#xFF08;&#x95A2;&#x6570;&#xFF09;&#x3092;&#x5B9F;&#x884C;&#x3059;&#x308B;&#x300D;&#x3068;&#x3044;&#x3046;&#x610F;&#x5473;&#x306B;&#x306A;&#x308A;&#x307E;&#x3059;&#x3002;</p>
+<p><code>eggImg.classList.remove(&apos;egg-tap&apos;);</code>&#x3067;&#x300C;eggImg&#x306E;Class&#x304B;&#x3089;egg-tap&#x3092;&#x524A;&#x9664;&#x3059;&#x308B;&#x300D;&#x3068;&#x3044;&#x3046;&#x610F;&#x5473;&#x306B;&#x306A;&#x308A;&#x307E;&#x3059;&#x3002;</p>
+<p><br></p>
+<p>&#x3064;&#x307E;&#x308A;&#x753B;&#x50CF;&#x3092;&#x30AF;&#x30EA;&#x30C3;&#x30AF;&#x3057;&#x305F;&#x3089;&#x3001;egg-tap&#x30AF;&#x30E9;&#x30B9;&#x3092;&#x8FFD;&#x52A0;&#x3059;&#x308B;&#x3051;&#x3069;0.2&#x79D2;&#x5F8C;&#x306B;&#x306F;&#x3059;&#x3050;&#x524A;&#x9664;&#x3057;&#x3061;&#x3083;&#x3046;&#x3088;&#x3068;&#x3044;&#x3046;&#x611F;&#x3058;&#x3067;&#x3059;&#x3002;</p>
+<p>&#x3053;&#x308C;&#x3067;0.2&#x79D2;&#x9593;&#x3060;&#x3051;&#x753B;&#x50CF;&#x304C;&#x63FA;&#x308C;&#x307E;&#x3059;&#x3002;&#x3082;&#x3063;&#x3068;&#x63FA;&#x3089;&#x3057;&#x305F;&#x3044;&#x65B9;&#x306F;&#x3053;&#x306E;200&#x3068;&#x3044;&#x3046;&#x6570;&#x5024;&#x3092;&#x5909;&#x66F4;&#x3057;&#x3066;&#x304F;&#x3060;&#x3055;&#x3044;&#x3002;</p>
+<p>&#x30B3;&#x30FC;&#x30C9;&#x3092;&#x66F8;&#x304D;&#x7D42;&#x308F;&#x3063;&#x305F;&#x3089;style.css&#x30D5;&#x30A1;&#x30A4;&#x30EB;&#x3068;main.js&#x30D5;&#x30A1;&#x30A4;&#x30EB;&#x3092;&#x4FDD;&#x5B58;&#x3057;&#x3066;&#x30D6;&#x30E9;&#x30A6;&#x30B6;&#x3092;&#x30EA;&#x30ED;&#x30FC;&#x30C9;&#x3057;&#x3066;&#x304F;&#x3060;&#x3055;&#x3044;&#x3002;</p>
+<p>&#x304D;&#x3061;&#x3093;&#x3068;&#x30AF;&#x30EA;&#x30C3;&#x30AF;&#x3059;&#x308B;&#x5EA6;&#x306B;&#x30D6;&#x30EB;&#x30D6;&#x30EB;&#x3068;&#x9707;&#x3048;&#x3066;&#x3044;&#x308C;&#x3070;&#x6210;&#x529F;&#x3067;&#x3059;&#x3002;</p>
+<p>&#x3053;&#x308C;&#x3067;&#x3072;&#x3068;&#x307E;&#x305A;100&#x4E07;&#x306E;&#x5375;&#x30A2;&#x30D7;&#x30EA;&#x306E;&#x5236;&#x4F5C;&#x306F;&#x5B8C;&#x4E86;&#x306A;&#x306E;&#x3067;&#x3001;count&#x6570;&#x3092;10&#x304B;&#x3089;1,000,000&#x306B;&#x5909;&#x66F4;&#x3057;&#x3066;&#x7D42;&#x4E86;&#x3067;&#x3059;&#x3002;</p>
+<p><br></p>
+<p><img src="img/play14.png" alt="img-14"></p>
+<p><br></p>
+<hr>
+<p>&#x4ECA;&#x56DE;&#x306F;&#x521D;&#x5FC3;&#x8005;&#x3067;&#x3082;&#x7C21;&#x5358;&#x306B;Web&#x30A2;&#x30D7;&#x30EA;&#x304C;&#x4F5C;&#x308C;&#x308B;&#x3088;&#x3046;&#x306B;&#x306A;&#x308B;&#x3079;&#x304F;&#x7C21;&#x5358;&#x306A;&#x30B3;&#x30FC;&#x30C9;&#x3067;&#x8A18;&#x8FF0;&#x3057;&#x307E;&#x3057;&#x305F;&#x3002;</p>
+<p>&#x307E;&#x305F;&#x3001;&#x73FE;&#x72B6;&#x3067;&#x306F;&#x7C21;&#x5358;&#x306B;&#x30AB;&#x30A6;&#x30F3;&#x30C8;&#x6570;&#x3092;&#x3044;&#x3058;&#x308C;&#x3061;&#x3083;&#x3046;&#x306E;&#x3067;&#x672C;&#x683C;&#x7684;&#x306B;&#x4F5C;&#x3063;&#x3066;&#x3044;&#x304F;&#x306B;&#x306F;Firebase&#x306A;&#x3069;&#x3092;&#x4F7F;&#x3063;&#x3066;&#x30E6;&#x30FC;&#x30B6;&#x30FC;&#x304C;&#x7C21;&#x5358;&#x306B;&#x6539;&#x5909;&#x3067;&#x304D;&#x306A;&#x3044;&#x3088;&#x3046;&#x306B;&#x5DE5;&#x592B;&#x3059;&#x308B;&#x5FC5;&#x8981;&#x304C;&#x3042;&#x308A;&#x307E;&#x3059;&#x3002;</p>
+<p>&#x4ECA;&#x56DE;&#x306F;&#x30D7;&#x30ED;&#x30B0;&#x30E9;&#x30DF;&#x30F3;&#x30B0;&#x3092;&#x5B66;&#x3076;&#x304D;&#x3063;&#x304B;&#x3051;&#x3092;&#x4F5C;&#x308C;&#x305F;&#x3089;&#x3044;&#x3044;&#x306A;&#x3068;&#x3044;&#x3046;&#x601D;&#x3044;&#x3067;&#x3053;&#x3061;&#x3089;&#x306E;&#x8CC7;&#x6599;&#x3092;&#x4F5C;&#x3063;&#x305F;&#x306E;&#x3067;&#xFF08;&#x3053;&#x308C;&#x304B;&#x3089;&#x3069;&#x3093;&#x3069;&#x3093;&#x6539;&#x5909;&#x3057;&#x3066;&#x3044;&#x304D;&#x307E;&#x3059;&#xFF09;&#x3001;&#x3053;&#x308C;&#x3092;&#x6A5F;&#x4F1A;&#x306B;&#x3082;&#x3063;&#x3068;&#x30D7;&#x30ED;&#x30B0;&#x30E9;&#x30DF;&#x30F3;&#x30B0;&#x3092;&#x5B66;&#x3073;&#x305F;&#x3044;&#xFF01;&#x3068;&#x601D;&#x3063;&#x305F;&#x3089;&#x305C;&#x3072;
+<a href="http://www.tohokutechdojo.org/" target="_blank">&#x6771;&#x5317;TECH&#x9053;&#x5834;</a>&#x306B;&#x6765;&#x3066;&#x307F;&#x3066;&#x4E0B;&#x3055;&#x3044;&#xFF01;</p>
+<p>&#x305D;&#x308C;&#x3067;&#x306F;&#xFF01;</p>
+<div id="anchors-navbar"><i class="fa fa-anchor"></i><ul><p><a href="#100&#x4E07;&#x306E;&#x5375;&#x3092;&#x4F5C;&#x3063;&#x3066;&#x307F;&#x3088;&#x3046;&#xFF13;">100&#x4E07;&#x306E;&#x5375;&#x3092;&#x4F5C;&#x3063;&#x3066;&#x307F;&#x3088;&#x3046;&#xFF13;</a></p><li><a href="#&#x30B9;&#x30AF;&#x30EA;&#x30D7;&#x30C8;&#x306E;&#x8A18;&#x8FF0;">1. &#x30B9;&#x30AF;&#x30EA;&#x30D7;&#x30C8;&#x306E;&#x8A18;&#x8FF0;</a></li><ul><li><a href="#Hello_World!">1.1. Hello World!</a></li></ul><li><a href="#&#x30AB;&#x30A6;&#x30F3;&#x30C8;&#x6570;&#x306E;&#x8868;&#x793A;">2. &#x30AB;&#x30A6;&#x30F3;&#x30C8;&#x6570;&#x306E;&#x8868;&#x793A;</a></li><li><a href="#&#x30AF;&#x30EA;&#x30C3;&#x30AF;&#x3067;&#x30AB;&#x30A6;&#x30F3;&#x30C8;&#x3092;&#x6E1B;&#x3089;&#x3059;&#x6A5F;&#x80FD;&#x306E;&#x5B9F;&#x88C5;">3. &#x30AF;&#x30EA;&#x30C3;&#x30AF;&#x3067;&#x30AB;&#x30A6;&#x30F3;&#x30C8;&#x3092;&#x6E1B;&#x3089;&#x3059;&#x6A5F;&#x80FD;&#x306E;&#x5B9F;&#x88C5;</a></li><ul><li><a href="#var&#x3001;let&#x3001;const&#x3068;&#x306F;">3.1. var&#x3001;let&#x3001;const&#x3068;&#x306F;</a></li></ul><li><a href="#&#x30AB;&#x30A6;&#x30F3;&#x30C8;&#x6570;&#xFF10;&#x3067;&#x6B62;&#x3081;&#x308B;">4. &#x30AB;&#x30A6;&#x30F3;&#x30C8;&#x6570;&#xFF10;&#x3067;&#x6B62;&#x3081;&#x308B;</a></li><li><a href="#&#x30AB;&#x30A6;&#x30F3;&#x30C8;&#x6570;&#x3092;&#x4FDD;&#x5B58;&#x3059;&#x308B;">5. &#x30AB;&#x30A6;&#x30F3;&#x30C8;&#x6570;&#x3092;&#x4FDD;&#x5B58;&#x3059;&#x308B;</a></li><ul><li><a href="#localStorage&#x3092;&#x4F7F;&#x3063;&#x3066;&#x307F;&#x308B;">5.1. localStorage&#x3092;&#x4F7F;&#x3063;&#x3066;&#x307F;&#x308B;</a></li></ul><li><a href="#localStorage&#x3068;&#x306F;">6. localStorage&#x3068;&#x306F;</a></li><li><a href="#&#x52B9;&#x679C;&#x97F3;&#x3092;&#x3064;&#x3051;&#x3066;&#x307F;&#x308B;">7. &#x52B9;&#x679C;&#x97F3;&#x3092;&#x3064;&#x3051;&#x3066;&#x307F;&#x308B;</a></li><li><a href="#&#x9707;&#x308F;&#x305B;&#x3066;&#x307F;&#x308B;">8. &#x9707;&#x308F;&#x305B;&#x3066;&#x307F;&#x308B;</a></li></ul></div><a href="#&#x30B9;&#x30AF;&#x30EA;&#x30D7;&#x30C8;&#x306E;&#x8A18;&#x8FF0;" id="goTop"><i class="fa fa-arrow-up"></i></a>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="Page-02.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: 100万の卵を作ってみよう2">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"100万の卵を作ってみよう3","level":"1.4","depth":1,"previous":{"title":"100万の卵を作ってみよう2","level":"1.3","depth":1,"path":"Page-02.md","ref":"Page-02.md","articles":[]},"dir":"ltr"},"config":{"plugins":["navigator","hints","intopic-toc"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"intopic-toc":{"label":"In this article","selector":".markdown-section h2","visible":true},"search":{},"hints":{"danger":"fa fa-exclamation-circle","info":"fa fa-info-circle","tip":"fa fa-mortar-board","working":"fa fa-wrench"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"navigator":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Unityチュートリアル","language":"ja","gitbook":"*","description":"This is a Unity example"},"file":{"path":"Page-03.md","mtime":"2020-07-10T09:30:13.516Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-07-10T09:30:40.614Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-intopic-toc/anchor.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-intopic-toc/gumshoe.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-intopic-toc/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
