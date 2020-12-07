@@ -1,46 +1,320 @@
-<h1 id="プログラミング基礎">プログラミング基礎</h1>
-<h2 id="プログラミングとは">プログラミングとは</h2>
-<p>皆さんはプログラミングが何なのか、どうして必要なのかを知っていますか？<br />
-「プログラミングとはコンピュータープログラムを作成することにより、人間の意図した処理を行うようにコンピューターに指示を与える行為である。」 とWikipediaに記載されています。<br />
-では皆さんはプログラミングをしたことはありますか？<br />
-少し遠い存在に感じるかもしれませんが、実は日常の様々なシーンで使われています。<br />
-今プログラミングは私たちの生活に欠かせないものになっています。<br />
-例えば皆さんが毎日使っている携帯電話やパソコンを動かすにはプログラミングが使われています。<br />
-そんな身近なプログラミングについて学習をしていきます。</p>
-<h2 id="プログラミング言語について">プログラミング言語について</h2>
-<p>ではどうすればプログラミングを始めることができるのでしょう。<br />
-まずはプログラミング言語を理解することから始まります。<br />
-皆さんは日本語を話していると思います。しかしイギリスでは英語を話している方が大半です。<br />
-同じ様にプログラミングでもパソコンが理解する言葉を使わないといけません。<br />
-またその言語の種類も様々で、200以上の言語が存在しています。<br />
-その中にはAndroidアプリを作るための言語やWebサイトを作るための言語など用途によって別れています。<br />
-現在、主要に使われているのは約20種類で用途によって使い分けることが重要になってきます。</p>
-<h3 id="セットアップ">セットアップ</h3>
-<p>実際にプログラミングをするためにはエディターというものを使います。<br />
-エディターもたくさん種類があり、使う人の好みで選びます。<br />
-今回は“VisualStudioCode”を使用していきます。（以下VScode）</p>
-<p>このサイトからVScodeをダウンロードしてインストールしてください。</p><br />
-<a src="https://code.visualstudio.com/"></a>
-<p>!(img/vscode1.png)</p>
-<p>この様な画面が出れば成功です。<br />
-今のままでは全てが英語表記なので、読みやすくするために日本語化しましょう。<br />
-左端に5つアイコンがあります。そこの下から2番目のExtensionsをクリックしてください。<br />
-そしたらそこにJapanese Language Pack for VisualStudioCodeと検索してください。</p>
-<p>!(img/vscode2.png)</p>
-<p>この画面が出たら成功です。<br />
-installボタンを押してインストールして行います。</p>
-<p>!(img/vscode3.png)</p>
-<p>この表示が出たらYesを押します。<br />
-そうすると再起動が始まり日本語対応になっています。</p>
-<p>!(img/vscode4.png)</p>
-<p>この様に日本語の画面になっていれば成功です。<br />
-これでエディターのセットアップは終了となります。</p>
-<h2 id="googlechromeをインストールしよう">GoogleChromeをインストールしよう</h2>
-<p>皆さんウェブブラウザは何を使用していますか。<br />
-Windowsの方ならMicrosoft Edge、MacならSafariが標準ブラウザとして入っています。<br />
-しかし今回はGoogleChromeを使用します。<br />
-使用する理由は動作が軽くて使いやすく、WindowsとMacの両方で使用することができるからです。<br />
-ここからインストールをしてください。<br />
-https://www.google.co.jp/chrome/</p>
-<p>これでセットアップは終了になります。<br />
-では次の章へ進んでください。</p>
+
+<!DOCTYPE HTML>
+<html lang="ja" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Introduction · Unityチュートリアル</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-navigator/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-hints/plugin-hints.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-intopic-toc/style.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="Page-01.html" />
+    
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="検索すると入力" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter active" data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="Page-01.html">
+            
+                <a href="Page-01.html">
+            
+                    
+                    100万の卵を作ってみよう1
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="Page-02.html">
+            
+                <a href="Page-02.html">
+            
+                    
+                    100万の卵を作ってみよう2
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="Page-03.html">
+            
+                <a href="Page-03.html">
+            
+                    
+                    100万の卵を作ってみよう3
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            GitBookで公開 
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >Introduction</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="Introduction">Introduction</h1>
+<hr>
+<h2 id="100&#x4E07;&#x306E;&#x5375;&#x3068;&#x306F;&#xFF1F;">1. 100&#x4E07;&#x306E;&#x5375;&#x3068;&#x306F;&#xFF1F;</h2>
+<p><br></p>
+<p><img src="img/play1.png" alt="image01">  </p>
+<p>100&#x4E07;&#x306E;&#x5375;&#x3068;&#x306F;&#x3001;&#x682A;&#x5F0F;&#x4F1A;&#x793E;&#x30D0;&#x30A4;&#x30D0;&#x30A4;&#x304C;&#x4F5C;&#x6210;&#x3057;&#x305F;&#x300C;&#x8AB0;&#x3082;&#x3084;&#x308A;&#x305F;&#x304F;&#x306A;&#x3044;&#x30A2;&#x30D7;&#x30EA;&#x300D;&#x3068;&#x3044;&#x3046;&#x5909;&#x308F;&#x3063;&#x305F;&#x30B3;&#x30F3;&#x30BB;&#x30D7;&#x30C8;&#x3067;&#x958B;&#x767A;&#x3055;&#x308C;&#x305F;&#x30E2;&#x30D0;&#x30A4;&#x30EB;&#x30A2;&#x30D7;&#x30EA;&#x30B1;&#x30FC;&#x30B7;&#x30E7;&#x30F3;&#x3067;&#x3059;&#x3002;</p>
+<p><br>
+<br>
+<img src="img/play2.png" alt="image02"> </p>
+<p>100&#x4E07;&#x306E;&#x5375;&#x306F;&#x3001;&#x3068;&#x3066;&#x3082;&#x30B7;&#x30F3;&#x30D7;&#x30EB;&#x3067;&#x753B;&#x9762;&#x306B;&#x8868;&#x793A;&#x3055;&#x308C;&#x3066;&#x3044;&#x308B;&#x5375;&#x3092;&#x3072;&#x305F;&#x3059;&#x3089;&#x30BF;&#x30C3;&#x30D7;&#x3057;&#x3066;100&#x4E07;&#x306E;&#x30AB;&#x30A6;&#x30F3;&#x30C8;&#x3092;0&#x306B;&#x3057;&#x3066;&#x3044;&#x304F;&#x3068;&#x3044;&#x3046;&#x3082;&#x306E;&#x3002;</p>
+<p>&#x30B7;&#x30B9;&#x30C6;&#x30E0;&#x3082;&#x30B7;&#x30F3;&#x30D7;&#x30EB;&#x306A;&#x306E;&#x3067;&#x5236;&#x4F5C;&#x65E5;&#x6570;&#x306F;3&#x65E5;&#x7A0B;&#x5EA6;&#x3067;&#x3001;&#x958B;&#x767A;&#x8005;&#x304C;&#x521D;&#x3081;&#x3066;&#x30EA;&#x30EA;&#x30FC;&#x3057;&#x305F;&#x30A2;&#x30D7;&#x30EA;&#x3060;&#x305D;&#x3046;&#x3067;&#x3059;&#x3002;
+<br>
+<br></p>
+<p>&#x88FD;&#x4F5C;&#x8005;&#x81EA;&#x8EAB;&#x3082;100&#x30C0;&#x30A6;&#x30F3;&#x30ED;&#x30FC;&#x30C9;&#x884C;&#x3051;&#x3070;&#x3044;&#x3044;&#x306A;&#x3068;&#x601D;&#x3063;&#x3066;&#x3044;&#x305F;&#x3068;&#x3053;&#x308D;&#x3001;&#x6D77;&#x5916;&#x306E;SNS&#x304B;&#x3089;&#x706B;&#x304C;&#x3064;&#x304D;&#x4E00;&#x6C17;&#x306B;&#x30C0;&#x30A6;&#x30F3;&#x30ED;&#x30FC;&#x30C9;&#x6570;&#x304C;&#x4F38;&#x3073;&#x305F;&#x305D;&#x3046;&#x3067;&#x3059;&#x3002;</p>
+<p>&#x3061;&#x306A;&#x307F;&#x306B;&#x5F53;&#x6642;&#x30B9;&#x30DA;&#x30A4;&#x30F3;&#x3067;&#x6D41;&#x884C;&#x3063;&#x3066;&#x3044;&#x305F;&#x300C;&#x305F;&#x307E;&#x3054;&#x3063;&#x3061;&#x300D;&#x304B;&#x3089;GooglePlayStore&#x3067;&#x691C;&#x7D22;&#x3055;&#x308C;&#x30C0;&#x30A6;&#x30F3;&#x30ED;&#x30FC;&#x30C9;&#x6570;&#x304C;&#x4F38;&#x3073;&#x305F;&#x3068;&#x304B;&#x3002;&#x6700;&#x8FD1;&#x3082;&#x300C;&#x3069;&#x3046;&#x3076;&#x3064;&#x30BF;&#x30EF;&#x30FC;&#x30D0;&#x30C8;&#x30EB;&#x300D;&#x3067;&#x540C;&#x3058;&#x3088;&#x3046;&#x306A;&#x3053;&#x3068;&#x304C;&#x3042;&#x308A;&#x307E;&#x3057;&#x305F;&#x306D;&#xFF08;&#x3069;&#x3046;&#x3076;&#x3064;&#x306E;&#x68EE;&#xFF09;&#x3002;</p>
+<hr>
+<h2 id="&#x30C0;&#x30A6;&#x30F3;&#x30ED;&#x30FC;&#x30C9;&#x6570;&#x3084;&#x53CE;&#x76CA;&#x306A;&#x3069;">2. &#x30C0;&#x30A6;&#x30F3;&#x30ED;&#x30FC;&#x30C9;&#x6570;&#x3084;&#x53CE;&#x76CA;&#x306A;&#x3069;</h2>
+<p><br>
+<br></p>
+<p>2014&#x5E74;&#x6B21;&#x306E;&#x30C7;&#x30FC;&#x30BF;&#x3067;&#x3059;&#x304C;&#x3001;100&#x4E07;&#x306E;&#x5375;&#x306F;&#x4E16;&#x754C;&#x3067;&#x7D2F;&#x8A08;800&#x4E07;&#x30C0;&#x30A6;&#x30F3;&#x30ED;&#x30FC;&#x30C9;&#xFF08;iOS&#xFF1A;300&#x4E07; / Android&#xFF1A;500&#x4E07;&#xFF09;&#x3055;&#x308C;&#x3001;&#x7D2F;&#x8A08;&#x53CE;&#x76CA;&#x306F;3,500&#x4E07;&#x301C;4,000&#x4E07;&#x5186;&#x7A0B;&#x5EA6;&#x3060;&#x305D;&#x3046;&#x3067;&#x3059;&#x3002;</p>
+<p><br>
+<br></p>
+<p>&#x6D77;&#x5916;&#x3067;&#x306E;&#x30C0;&#x30A6;&#x30F3;&#x30ED;&#x30FC;&#x30C9;&#x6570;&#x304C;&#x5727;&#x5012;&#x7684;&#x306B;&#x591A;&#x3044;&#x3089;&#x3057;&#x3044;&#x3067;&#x3059;&#x304C;&#x3001;&#x53CE;&#x76CA;&#x3067;&#x306F;&#x30C0;&#x30F3;&#x30C8;&#x30C4;&#x3067;&#x65E5;&#x672C;&#x304C;&#x9AD8;&#x304F;&#x3066;&#x3001;1&#x30C0;&#x30A6;&#x30F3;&#x30ED;&#x30FC;&#x30C9;&#x3042;&#x305F;&#x308A;10&#x5186;&#x3068;&#x306E;&#x3053;&#x3068;&#x3002;&#x6D77;&#x5916;&#x3060;&#x3068;1&#x30C0;&#x30A6;&#x30F3;&#x30ED;&#x30FC;&#x30C9;&#x3042;&#x305F;&#x308A;&#x5E73;&#x5747;4&#x5186;&#x304F;&#x3089;&#x3044;&#x3060;&#x305D;&#x3046;&#x3067;&#x3059;&#x3002;</p>
+<p><br>
+<br></p>
+<blockquote>
+<p>&#x8A73;&#x7D30;&#x306F;<a href="https://appmarketinglabo.net/100man-tamago/" target="_blank">&#x3053;&#x3061;&#x3089;</a>&#x306E;&#x30B5;&#x30A4;&#x30C8;&#x3092;&#x78BA;&#x8A8D;&#x3057;&#x3066;&#x304F;&#x3060;&#x3055;&#x3044;&#x3002;</p>
+</blockquote>
+<p><br>
+<br>
+<br></p>
+<p>&#x524D;&#x7F6E;&#x304D;&#x306F;&#x3053;&#x3053;&#x307E;&#x3067;&#x306B;&#x3057;&#x3066;&#x65E9;&#x901F;&#x6B21;&#x306E;&#x30DA;&#x30FC;&#x30B8;&#x304B;&#x3089;&#x5236;&#x4F5C;&#x3057;&#x3066;&#x3044;&#x304D;&#x307E;&#x3057;&#x3087;&#x3046;&#x3002;</p>
+<p><br>
+<br></p>
+<div id="anchors-navbar"><i class="fa fa-anchor"></i><ul><p><a href="#Introduction">Introduction</a></p><li><a href="#100&#x4E07;&#x306E;&#x5375;&#x3068;&#x306F;&#xFF1F;">1. 100&#x4E07;&#x306E;&#x5375;&#x3068;&#x306F;&#xFF1F;</a></li><li><a href="#&#x30C0;&#x30A6;&#x30F3;&#x30ED;&#x30FC;&#x30C9;&#x6570;&#x3084;&#x53CE;&#x76CA;&#x306A;&#x3069;">2. &#x30C0;&#x30A6;&#x30F3;&#x30ED;&#x30FC;&#x30C9;&#x6570;&#x3084;&#x53CE;&#x76CA;&#x306A;&#x3069;</a></li></ul></div><a href="#100&#x4E07;&#x306E;&#x5375;&#x3068;&#x306F;&#xFF1F;" id="goTop"><i class="fa fa-arrow-up"></i></a>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                
+                <a href="Page-01.html" class="navigation navigation-next navigation-unique" aria-label="Next page: 100万の卵を作ってみよう1">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Introduction","level":"1.1","depth":1,"next":{"title":"100万の卵を作ってみよう1","level":"1.2","depth":1,"path":"Page-01.md","ref":"Page-01.md","articles":[]},"dir":"ltr"},"config":{"plugins":["navigator","hints","intopic-toc"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"intopic-toc":{"label":"In this article","selector":".markdown-section h2","visible":true},"search":{},"hints":{"danger":"fa fa-exclamation-circle","info":"fa fa-info-circle","tip":"fa fa-mortar-board","working":"fa fa-wrench"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"navigator":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Unityチュートリアル","language":"ja","gitbook":"*","description":"This is a Unity example"},"file":{"path":"README.md","mtime":"2020-06-29T09:49:42.679Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-07-10T09:43:02.838Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-intopic-toc/anchor.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-intopic-toc/gumshoe.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-intopic-toc/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
